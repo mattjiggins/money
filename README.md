@@ -10,3 +10,5 @@ This is a simple app I use on mobile to get the latest currency conversion for C
 Very light.
 
 Work in progress.
+
+**If you use this, please get your own API key at http://openexchangerates.org**
