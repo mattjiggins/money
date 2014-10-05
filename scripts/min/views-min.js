@@ -1,0 +1,1 @@
+RateView=Backbone.View.extend({tagName:"ul",className:"list-group",initialize:function(){this.model.bind("reset",this.render,this);var e=this;this.model.bind("add",function(i){$(e.el).append(new PostListItemView({model:i}).render().el)})},render:function(e){return _.each(this.model.models,function(e){$(this.el).append(new PostListItemView({model:e}).render().el)},this),this}});

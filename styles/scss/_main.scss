@@ -1,0 +1,50 @@
+body {
+  font-family: Roboto, "Helvetica Neue", Helvetica;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  @include respond-to (small-desktop) {
+    padding: 0px 20px;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.primary-rate {
+  border: 1px solid darken(#f1f1f1, 20);
+  background: #f1f1f1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  p {
+    font-size: 2em;
+    font-weight: 700;
+  }
+}
+
+.secondary-rate {
+  border: 1px solid darken(#f1f1f1, 20);
+  background: #f1f1f1;
+  p {
+    font-size: 2em;
+  }
+}
+
+.rate-better {
+  border-top: 10px solid green;
+}
+
+.rate-worse {
+  border-bottom: 10px solid red;
+}
+
+.disclaimer {
+  color: lighten(#000, 50);
+  font-size: .7em;
+  
+}
