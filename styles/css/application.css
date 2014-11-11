@@ -226,6 +226,9 @@ body {
     display: none !important;
     width: 0;
     height: 0; } }
+a {
+  text-decoration: none; }
+
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica;
   font-size: 18px; }
